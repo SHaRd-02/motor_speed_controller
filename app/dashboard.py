@@ -60,5 +60,7 @@ st.subheader("Real-time Speed Visualization")
 data = get_historical_data()
 if not data.empty and "speed" in data.columns:
     st.line_chart(data[["speed"]])
+    st.subheader("Latest Records")
+    st.dataframe(data, use_container_width=True)
 else:
     st.warning("No valid numeric speed data available.")
