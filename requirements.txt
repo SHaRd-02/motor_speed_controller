@@ -1,0 +1,7 @@
+Textual==0.14.0
+streamlit==1.10.0
+streamlit_autorefresh
+sqlite3==2.6.0
+pandas
+supabase
+python-dotenv

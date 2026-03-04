@@ -1,0 +1,72 @@
+Screen {
+    layout: vertical;
+    background: #0f172a;
+}
+
+Header {
+    background: #1e293b;
+    color: white;
+}
+
+Footer {
+    background: #1e293b;
+    color: white;
+}
+
+Select {
+    margin: 1 2;
+    background: #1e293b;
+    border: solid #334155;
+    color: white;
+}
+
+Button {
+    margin: 1 2;
+    background: #2563eb;
+    color: white;
+    border: none;
+}
+
+Button:hover {
+    background: #3b82f6;
+}
+
+#start_button {
+    background: #16a34a;
+}
+
+#start_button:hover {
+    background: #22c55e;
+}
+
+#stop_button {
+    background: #dc2626;
+}
+
+#stop_button:hover {
+    background: #ef4444;
+}
+
+.panel {
+    margin: 2;
+    padding: 1 2;
+    border: solid #334155;
+    background: #1e293b;
+    color: #38bdf8;
+    text-style: bold;
+}
+
+Input {
+    margin: 1 2;
+    border: solid #334155;
+    background: #0f172a;
+    color: white;
+}
+
+.terminal {
+    margin: 2;
+    height: 10;
+    border: solid #334155;
+    background: black;
+    color: #22c55e;
+}

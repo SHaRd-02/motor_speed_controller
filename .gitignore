@@ -1,0 +1,14 @@
+# Ignore unnecessary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.log
+*.env
+*.DS_Store
+*.egg-info/
+*.egg
+*.venv/
+*.virtualenv/
